@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-bg);
+}
+:root {
+  --color-bg: rgb(231, 231, 236);
+  --color-text: rgb(62, 65, 65);
+  --color-card: #fff;
+  --color-btn: orangered;
+  --color-span: rgb(127, 140, 255);
+}
+
+.heading {
+  border-bottom: 3px solid var(--color-span);
+  padding-bottom: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+/* Card */
+.card {
+  width: 35%;
+  background-color: var(--color-card);
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 70%;
+  }
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.card-content {
+  padding: 2rem;
+  line-height: 1.7rem;
+  color: var(--color-text);
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.3rem 0;
+}
+
+.heading-container h4 {
+  background-color: aliceblue;
+}
+p span {
+  color: var(--color-span);
+  text-decoration: underline;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.btn {
+  outline: none;
+  padding: 1rem 5rem;
+  margin: 1.7rem auto 0.5rem auto;
+  display: block;
+  background-color: transparent;
+  border: 1px solid var(--color-btn);
+  color: var(--color-btn);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

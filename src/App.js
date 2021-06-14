@@ -1,8 +1,8 @@
 import React from 'react'
-import Birthday from './Projects/1.BirthdayReminder/Birthday';
+import MyApp from './Projects/2.Tours/Tours';
 function App() {
   return (
-    <Birthday />
+    <MyApp />
   );
 }
 
