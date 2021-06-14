@@ -10,6 +10,8 @@ Update useState array by removing single or all items.
 
 https://react-birthday-reminder-app.netlify.app/
 
+## useEffect
+
 ### 2. Tours
 
 Similar to Birthday reminder app but we are using a simple API so that we can introduce side-effects that can be handled by useEffect hook.
