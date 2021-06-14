@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-violet: rgb(165, 67, 223);
+  --color-white: rgb(241, 241, 241);
+}
+.heading {
+  margin-left: 3rem;
+  padding-bottom: 1rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-violet);
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.container {
+  width: 30%;
+  background-color: var(--color-white);
+  padding: 2.5rem 0;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 70%;
+  }
+}
+
+article img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  background-color: var(--color-violet);
+  padding: 1rem;
+  height: fit-content;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.clear-btn {
+  margin: 2rem auto 0 auto; /* to center the button*/
+  display: block; /* to center the button*/
+  width: 70%;
+  border-radius: 0;
+}
+.card-image-text {
+  display: flex;
+}
