@@ -18,6 +18,6 @@ export const Card = (props) => {
                 </p>
                 <button className="btn" onClick={() => remove(id)}>Not Interested</button>
             </div>
-        </section>
+        </section >
     )
 }

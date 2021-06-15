@@ -24,6 +24,8 @@ function Tours() {
         }
         catch (err) {
             console.log(err)
+            setLoading(false)
+            setError(true)
         }
     }
 
@@ -46,10 +48,12 @@ function Tours() {
 
     return (
         <main className="container">
-            <h1 className="heading">Our Tours</h1>
-            {tours.map(tour => {
+            <h1 className="heading ">Our Tours</h1>
+            {tours.length > 0 ? tours.map(tour => {
                 return <Card key={tour.id} {...tour} remove={removeHandler} />
-            })}
+            }) :
+                <button className="btn btn-refresh" onClick={getTours}>Refresh</button>
+            }
 
         </main>
     )

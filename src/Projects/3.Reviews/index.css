@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-bg: rgb(19, 72, 97);
+  --color-heading: rgb(238, 239, 241);
+  --color-text: rgb(70, 70, 65);
+  --color-btn: rgb(28, 177, 197);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-bg);
+  background-image: linear-gradient(180deg, var(--color-btn), white);
+  /* background-image: linear-gradient(black, white); */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  color: var(--color-heading);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.underline {
+  border-bottom: 3px solid var(--color-heading);
+  width: 7rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-heading);
+  width: 40%;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgb(23, 23, 24);
+}
+@media screen and (max-width: 90rem) {
+  .card {
+    width: 70%;
+  }
+}
+.card img {
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+}
+
+.job-desc {
+  text-transform: uppercase;
+  color: var(--color-btn);
+  margin-top: 0.5rem;
+}
+.details {
+  margin: 1rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.descritption {
+  letter-spacing: 0.7px;
+  color: var(--color-text);
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.btn-container {
+  margin-top: 1rem;
+}
+
+.btn-container button {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0 0.3rem;
+  color: var(--color-btn);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--color-btn);
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.img-container {
+  position: relative;
+}
+
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 70%;
+  background: var(--color-btn);
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+
+.quote-icon-container {
+  background-color: var(--color-btn);
+  border-radius: 50%;
+  top: 1rem;
+  left: 0rem;
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+}
+
+.quote-icon {
+  color: #fff;
+}

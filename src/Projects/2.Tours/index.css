@@ -80,3 +80,10 @@ p span {
   letter-spacing: 1px;
   cursor: pointer;
 }
+
+.btn-refresh {
+  background-color: var(--color-span);
+  color: var(--color-card);
+  margin-top: 3rem;
+  border: none;
+}
