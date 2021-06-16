@@ -12,13 +12,19 @@ https://react-birthday-reminder-app.netlify.app/
 
 ### 2. Simple Reviews Widget
 
-Though we use only useEffect hook, a lot of styling involved where we get to learn how to add react-icons, how to use ::before pseudo class to style the image.
+Though we use only useState hook, a lot of styling involved where we get to learn how to add react-icons, how to use ::before pseudo class to style the image.
 
 https://react-simple-reviews-app.netlify.app/
 
+### 3. Accordion
+
+This can be used for FAQs section where one question dropdown closes when the next question is clicked. Implemented SAAS for better organization of styling.
+
+https://react-accordion-widget.netlify.app/
+
 ## useEffect
 
-### 3. Tours
+### 4. Tours
 
 Similar to Birthday reminder app but we are using a simple API so that we can introduce side-effects that can be handled by useEffect hook.
 Also, implemented simple Loading and Error display if the component doesn't re-render.
