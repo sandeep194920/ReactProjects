@@ -30,3 +30,9 @@ Similar to Birthday reminder app but we are using a simple API so that we can in
 Also, implemented simple Loading and Error display if the component doesn't re-render.
 
 https://react-tourism-app.netlify.app/
+
+#### 5. Menu
+
+Restaurant menu displays different food items based on the selected categories. Demonstrated how we can set the CSS active class for selected category.
+
+https://react-restaurant-menu-app.netlify.app/
