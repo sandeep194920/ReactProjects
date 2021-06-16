@@ -31,7 +31,7 @@ Also, implemented simple Loading and Error display if the component doesn't re-r
 
 https://react-tourism-app.netlify.app/
 
-#### 5. Menu
+### 5. Menu
 
 Restaurant menu displays different food items based on the selected categories. Demonstrated how we can set the CSS active class for selected category.
 
