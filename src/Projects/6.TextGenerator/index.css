@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--color-violet);
+  color: var(--color-grey);
+}
+:root {
+  --color-grey: rgb(229, 230, 235);
+  --color-violet: rgb(149, 101, 194);
+}
+body {
+  background-color: var(--color-grey);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+}
+main h2 {
+  letter-spacing: 1px;
+}
+
+form {
+  margin: 2rem 0;
+  position: relative;
+}
+
+form label,
+form input {
+  margin-right: 0.7rem;
+}
+
+form input {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 10px;
+}
+
+form label {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+form button {
+  margin-left: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10%;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background-color: var(--color-violet);
+}
+
+.disabled {
+  background-color: rgb(179, 172, 172);
+  cursor: not-allowed;
+}
+
+.copied {
+  border: 2px solid var(--color-violet);
+  position: absolute;
+  top: -0.5rem;
+  margin-left: 3rem;
+  padding: 0.5rem;
+  width: 6rem;
+}
+section {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+section p {
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}

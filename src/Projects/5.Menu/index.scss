@@ -87,7 +87,7 @@ header {
         justify-content: space-between;
         letter-spacing: 1px;
         & h4:first-child {
-          text-transform: capitalizes;
+          text-transform: capitalize;
         }
         & h4:last-child {
           color: darken($color-secondary, 15%);
