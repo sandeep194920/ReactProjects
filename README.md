@@ -31,7 +31,13 @@ Also, implemented simple Loading and Error display if the component doesn't re-r
 
 https://react-tourism-app.netlify.app/
 
-### 5. Menu
+### 5. Slider
+
+This has to do little with CSS transforms. A good overall practice app which allows us to think about not only react way but also some CSS way.
+
+https://react-review-slider-app.netlify.app/
+
+### 6. Menu
 
 Restaurant menu displays different food items based on the selected categories. Demonstrated how we can set the CSS active class for selected category. Used CSS grid for the layout.
 
@@ -39,7 +45,7 @@ https://react-restaurant-menu-app.netlify.app/
 
 ## Forms
 
-### 6. Text Generator
+### 7. Text Generator
 
 Introducing forms in react. I've used simple input to demonstrate the basics of the form. I've also used useRef hook to highlight the input (focus) when app loads. You can generate as many paragraphs as you want and then copy with a button click. To make the copy possible, I've used a react library react-copy-to-clipboard.
 
