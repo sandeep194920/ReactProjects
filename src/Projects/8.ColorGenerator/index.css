@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-light-grey: #f3f3f3;
+  --color-purple: #54168f;
+  --color-red: #912222;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--color-light-grey);
+}
+
+.container {
+  display: flex;
+  margin: 2rem;
+  width: 70%;
+  align-items: center;
+}
+
+form input {
+  width: 7rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  outline: none;
+  margin-left: 1rem;
+}
+
+form button {
+  padding: 0.2rem;
+  background-color: var(--color-purple);
+  border: none;
+  outline: none;
+  color: white;
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.error {
+  border: 2px solid var(--color-red);
+}
+
+.color {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.colors {
+  display: grid;
+  min-height: calc(100vh - 100px);
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+.shade {
+  color: #fff;
+}
+
+article {
+  cursor: pointer;
+}

@@ -50,3 +50,9 @@ https://react-restaurant-menu-app.netlify.app/
 Introducing forms in react. I've used simple input to demonstrate the basics of the form. I've also used useRef hook to highlight the input (focus) when app loads. You can generate as many paragraphs as you want and then copy with a button click. To make the copy possible, I've used a react library react-copy-to-clipboard.
 
 https://react-text-generator-app.netlify.app/
+
+### 8. Hex Color Generator
+
+Using a thrid party API (mentioned in the project's readme), we are getting a different tints (light colors) and shades (dark colors) of a given color. We can search by hex values and strings. Copy-To-Clipboard is used in an efficient way compared to Text Generator project. In the project 7. we used a library to copy the text to clipboard where as we are doing it with a single line of code here which is much more easier.
+
+https://react-hex-color-generator.netlify.app/
