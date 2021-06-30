@@ -56,3 +56,9 @@ https://react-text-generator-app.netlify.app/
 Using a thrid party API (mentioned in the project's readme), we are getting a different tints (light colors) and shades (dark colors) of a given color. We can search by hex values and strings. Copy-To-Clipboard is used in an efficient way compared to Text Generator project. In the project 7. we used a library to copy the text to clipboard where as we are doing it with a single line of code here which is much more easier.
 
 https://react-hex-color-generator.netlify.app/
+
+### 9. Grocery List
+
+A crud application that covers most of the functionalities an extensive app should have. Local storage has been implemented where data is not lost on page refresh. A model with different message is shown everytime depending on the operation. Can learn a lot from this partuclar app.
+
+https://react-grocery-list-app.netlify.app/

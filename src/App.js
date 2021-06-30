@@ -1,5 +1,5 @@
 import React from 'react'
-import MyApp from './Projects/8.ColorGenerator/App';
+import MyApp from './Projects/10.GroceryList/App';
 function App() {
   return (
     <MyApp />
