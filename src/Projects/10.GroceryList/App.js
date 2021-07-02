@@ -42,7 +42,7 @@ function App() {
             // id++;
             setItems([...items, { itemId: new Date().getTime().toString(), name: item }])
             setItem('')
-            setAlert({ ...alert, show: true, msg: `${item} added to the list` })
+            setAlert({ ...alert, success: true, show: true, msg: `${item} added to the list` })
         }
 
     }

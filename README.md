@@ -62,3 +62,11 @@ https://react-hex-color-generator.netlify.app/
 A crud application that covers most of the functionalities an extensive app should have. Local storage has been implemented where data is not lost on page refresh. A model with different message is shown everytime depending on the operation. Can learn a lot from this partuclar app.
 
 https://react-grocery-list-app.netlify.app/
+
+## useRef
+
+### 10. Navbar
+
+What's so special about a simple Navbar? Well, it looks simple but the whole take away from this project is the smooth tranition that happens toggling the navbar. On a simple useState call alone this is not possible. We need a useRef hook (2 useRef hooks) to make it happen.
+
+https://react-simple-responsive-navbar.netlify.app/
